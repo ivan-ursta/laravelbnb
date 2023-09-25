@@ -45,6 +45,8 @@ services:
       - "3306:3306"
     environment:
       MYSQL_DATABASE: laravelbnb
+      MYSQL_PASSWORD: secret
+      MYSQL_USER: root
       MYSQL_ROOT_PASSWORD: secret
       SERVICE_TAGS: dev
       SERVICE_NAME: mysql
