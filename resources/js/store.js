@@ -1,4 +1,4 @@
-//import { isLoggedIn, logOut } from "./shared/utils/auth";
+import { isLoggedIn, logOut } from "./shared/utils/auth";
 
 export default {
     state: {

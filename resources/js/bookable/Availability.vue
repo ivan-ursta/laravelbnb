@@ -48,8 +48,8 @@
 </template>
 
 <script>
-import { is422 } from "../shared/utils/response";
-import validationErrors from "../shared/mixins/validationErrors";
+import { is422 } from "./../shared/utils/response";
+import validationErrors from "./../shared/mixins/validationErrors";
 
 export default {
   mixins: [validationErrors],
